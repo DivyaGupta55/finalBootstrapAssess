@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Assessment</title>
+    <!-- Link for adding bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Link for adding Oswald Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Link for adding Montserrat Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link for adding Nunito Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Linking custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking custom CSS file -->
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/284c60d4fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Start of first container -->
+    <!-- Container is divided into two parts -->
+    <div class="intro bgRepeat">
+        <!-- First navbar part -->
+        <nav class="navbar navbar-expand-lg bg-dark introNavLeftPadding py-3 pe-4">
+            <div class="container-fluid">
+                <div>
+                    <img class="w-75" src="./assets/images/Musicology.png" alt="Musicology">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-white fs-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 m-auto mb-lg-0 oswald text-uppercase">
+                        <li class="nav-item ps-3 fs-5">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-3 fs-5">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Product</a>
+                        </li>
+                        <li class="nav-item px-3 fs-5">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Promo</a>
+                        </li>
+                        <li class="nav-item px-3 fs-5">
+                            <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-3 fs-5 pe-5">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="w-75" src="./assets/images/search.png" alt="Search">
+                </div>
+
+            </div>
+        </nav>
+        <!-- Second body part -->
+        <div class="introMain container ms-md-5 ps-md-5 text-white">
+            <div class="row">
+                <div class="col-lg-7 d-flex flex-column">
+                    <h1 class="oswald fw-normal">Title Here</h1>
+                    <p class="montserrat fs-3 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        lacinia odio vitae vestibulum vestibulum.</p>
+                    <button class="text-white border-0 text-uppercase oswald py-2 fs-4 rounded-1 mt-1 orangePinata buttonDesignFirst"
+                        type="button">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of first container -->
+
+    <!-- Start of second container -->
+    <!-- Container is divided into two parts -->
+    <div class="danceTour d-flex flex-column orangePinata text-white bgRepeat py-5">
+        <!-- First Upper Part -->
+        <!-- Upper Part is further sub-divided into two parts -->
+        <div class="danceTourUpper d-flex flex-column text-center">
+            <!-- First heading part -->
+            <h1 class="oswald text-uppercase headingFont pt-2 cursor headingShadow">Dance Tour</h1>
+            <!-- Second paragraph part -->
+            <p class="montserrat m-auto danceTourUpperParaWidth paraFont pt-3 pb-5 lh-sm">Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+        <!-- Second Lower Part -->
+        <!-- Lower Part conists of three cards -->
+        <div
+            class="danceTourLower d-flex justify-content-between introNavLeftPadding introNavRightPadding text-white pb-3">
+            <!-- First Card -->
+            <div class="card danceTourCard cursor border-0 rounded-0 wax" style="width: 22rem;">
+                <img src="./assets/images/America.png" class="card-img-top" alt="America">
+                <div class="card-body">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2">America</h5>
+                    <p class="card-text text-center montserrat fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.</p>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card danceTourCard cursor border-0 rounded-0 wax" style="width: 22rem;">
+                <img src="./assets/images/Asia.jpg" class="card-img-top" alt="Asia">
+                <div class="card-body">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2">Asia</h5>
+                    <p class="card-text text-center montserrat fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.</p>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card danceTourCard cursor border-0 rounded-0 wax" style="width: 22rem;">
+                <img src="./assets/images/Australia.jpg" class="card-img-top" alt="Australia">
+                <div class="card-body">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2">Australia</h5>
+                    <p class="card-text text-center montserrat fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of second container -->
+
+    <!-- Start of third container -->
+    <!-- Container is divided into two parts -->
+    <div class="pricing d-flex flex-column wax text-white bgRepeat py-5">
+        <!-- First Upper Part -->
+        <!-- Upper Part is further sub-divided into two parts -->
+        <div class="pricingUpper d-flex flex-column text-center">
+            <!-- First heading part -->
+            <h1 class="oswald text-uppercase headingFont pt-2 cursor headingShadow">Pricing</h1>
+            <!-- Second paragraph part -->
+            <p class="montserrat m-auto danceTourUpperParaWidth paraFont pt-3 pb-5 lh-sm">Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+        <!-- Second Lower Part -->
+        <!-- Lower Part conists of three cards -->
+        <div
+            class="pricingLower d-flex justify-content-between introNavLeftPadding introNavRightPadding text-white pb-3">
+            <!-- First Card -->
+            <div class="card pricingCard cursor border-0 rounded-5 orangePinata d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <img src="./assets/images/pricing.png" class="card-img-top w-25" alt="Basic">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2 pt-4 pb-2">Basic</h5>
+                    <p class="card-text text-center montserrat fs-5 pb-2">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit.</p>
+                    <a href="#" class="btn wax text-white ms-3 py-2 fs-4">$150.00</a>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card pricingCard cursor border-0 rounded-5 orangePinata d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <img src="./assets/images/pricing.png" class="card-img-top w-25" alt="Professional">
+                <div class="card-body">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2 pt-4 pb-2">Professional</h5>
+                    <p class="card-text text-center montserrat fs-5 pb-2">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit.</p>
+                    <a href="#" class="btn wax text-white ms-3 py-2 fs-4">$200.00</a>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card pricingCard cursor border-0 rounded-5 orangePinata d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <img src="./assets/images/pricing.png" class="card-img-top w-25" alt="Ultimate">
+                <div class="card-body">
+                    <h5 class="card-title text-center oswald text-uppercase fs-2 pt-4 pb-2">Ultimate</h5>
+                    <p class="card-text text-center montserrat fs-5 pb-2">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit.</p>
+                    <a href="#" class="btn wax text-white ms-3 py-2 fs-4">$250.00</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of third container -->
+
+    <!-- Start of fourth container -->
+    <!-- This container contains two rows -->
+    <div class="dance">
+        <!-- First Row -->
+        <!-- First Row is further divided into two columns -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-lg-6 p-0">
+                    <img class="w-100 pictureOpacity cursor" src="./assets/images/dance_firstRow.png" alt="dance">
+                </div>
+                <!-- Right Column -->
+                <div class="col-lg-6 orangePinata text-white d-flex flex-column danceContent ps-md-5">
+                    <h1 class="text-uppercase oswald headingFont cursor headingShadow">Amazing Dance</h1>
+                    <p class="montserrat paraFont fs-4 lh-sm pt-3 pb-4">Lorem ipsum dolor sit
+                        amet, consecte- tur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                    <button class="wax text-white text-uppercase border-0 w-50 fs-4 py-2 oswald buttonDesignFirst">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <!-- Second Row is further divided into two Columns -->
+        <div class="container-fluid">
+            <div class="row  d-flex danceSecondRow">
+                <!-- Left Column -->
+                <div class="col-lg-6 orangePinata danceContent d-flex flex-column introNavLeftPadding text-white">
+                    <h1 class="text-uppercase oswald headingFont cursor headingShadow">Best Dance</h1>
+                    <p class="montserrat pe-md-2 fs-4 lh-sm pt-3 pb-5">Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                    <button class="wax text-white text-uppercase border-0 w-50 fs-4 py-2 oswald buttonDesignFirst">Read more</button>
+                </div>
+                <!-- Right Column -->
+                <div class="col-lg-6 p-0">
+                    <img class="w-100 pictureOpacity cursor" src="./assets/images/dance_secondRow.png" alt="dance">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of fourth container -->
+
+    <!-- Start of fifth container -->
+    <!-- Container is divided into two parts -->
+    <div class="statistics d-flex flex-column wax text-white bgRepeat">
+        <!-- First Upper Part -->
+        <!-- Upper Part is further sub-divided into two parts -->
+        <div class="statisticsUpper d-flex flex-column text-center">
+            <!-- First heading part -->
+            <h1 class="oswald text-uppercase headingFont pt-2 cursor headingShadow">Our Statistics</h1>
+            <!-- Second paragraph part -->
+            <p class="montserrat m-auto danceTourUpperParaWidth paraFont pt-3 pb-5 lh-sm">Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+
+
+        <!-- Second Lower Part -->
+        <!-- Lower Part conists of three cards -->
+        <div
+            class="statisticsLower d-flex  justify-content-between align-items-center text-white pb-3">
+            <!-- First Card -->
+            <div class="card statisticsCard cursor border-0 wax d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <div class="card-body">
+                    <h1 class="card-title text-center oswald text-uppercase pt-4 pb-2">1240+</h1>
+                    <p class="card-text text-center montserrat paraFont pb-2">Club</p>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card statisticsCard cursor border-0 wax d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <div class="card-body">
+                    <h1 class="card-title text-center oswald text-uppercase pt-4 pb-2">2000+</h1>
+                    <p class="card-text text-center montserrat paraFont pb-2">Active Member</p>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card statisticsCard cursor border-0 wax d-flex flex-column align-items-center justify-content-center pt-5 pb-2"
+                style="width: 22rem;">
+                <div class="card-body">
+                    <h1 class="card-title text-center oswald text-uppercase pt-4 pb-2">1.000+</h1>
+                    <p class="card-text text-center montserrat paraFont pb-2">Community</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of fifth container -->
+
+    <!-- Start of sixth container -->
+    <!-- This container has two parts -->
+    <div class="herbert container-fluid text-white bgRepeat">
+        <div class="row">
+            <div class="col-lg-9 m-auto text-center">
+                <!-- First Paragraph part -->
+                <p class="lh-1">Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <!-- Second heading part -->
+                <h1 class="oswald text-uppercase pt-3 cursor headingShadow">Herbert Simon</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End of sixth container -->
+
+    <!-- Start of seventh container -->
+    <!-- Container is divided into three parts -->
+    <div class="subscribe container-fluid orangePinata text-white py-5">
+        <div class="row">
+            <div class="col-lg-8 m-auto text-center">
+                <!-- First Heading Part -->
+                <h1 class="headingFont text-uppercase oswald pt-5 cursor headingShadow">Subscribe</h1>
+                <!-- Second Paragraph Part -->
+                <p class="paraFont montserrat lh-sm pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <!-- Third Input Part -->
+                <div class="input-group mb-3 m-auto pt-3 pb-5 cursor">
+                    <input type="text" class="form-control border-0 fs-md-5 cursor" placeholder="Your Email"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span
+                        class="input-group-text wax text-white text-uppercase border-0 w-md-25 oswald fs-md-5 ps-md-5 text-center"
+                        id="basic-addon2">Subscribe</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of seventh container -->
+
+    <!-- Start of eighth container -->
+    <!-- Eighth container is footer, divided into four columns -->
+    <div class="footer container-fluid wax text-white introNavLeftPadding py-5 cursor">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-md-4 d-flex flex-column">
+                <h3 class="oswald text-uppercase fw-normal pt-5 pb-3">Musicology</h3>
+                <p class="montserrat fs-lg-5 pe-md-2 pb-3 lh-sm">Lorem ipsum dolor sit amet, consecte- tur adipising
+                    elit. Aliquam at dignis- sim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                <!-- Div containing icons -->
+                <div class="footerIcons">
+                        <img class="me-1 cursor" src="./assets/images/instagram.png" alt="Instagram">
+                        <img class="me-1 cursor" src="./assets/images/facebook.png" alt="Facebook">
+                        <img class="me-1 cursor" src="./assets/images/twitter.png" alt="Twitter">
+                        <img class="cursor" src="./assets/images/whatsapp.png" alt="Whatsapp">      
+                </div>
+            </div>
+            <!-- Second Column -->
+            <!-- offset class is used to give spacing -->
+            <div class="col-2 offset-2 offset-sm-1">
+                <h3 class="oswald text-uppercase fw-normal pt-md-5 pb-md-3">About</h3>
+                <div class="montserrat pb-md-2 fs-lg-5">History </div>
+                <div class="montserrat pb-md-2 fs-lg-5">Our Team</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Brand Guidelines</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Terms&Condition</div>
+                <div class="montserrat fs-lg-5">Privacy Policy</div>
+            </div>
+            <!-- Third Column -->
+            <div class="col-2">
+                <h3 class="oswald text-uppercase fw-normal pt-md-5 pb-md-3">Services</h3>
+                <div class="montserrat pb-md-2 fs-lg-5">How to order</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Our Product</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Order Status</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Promo</div>
+                <div class="montserrat fs-lg-5">Payment Method</div>
+            </div>
+            <!-- Fourth Column -->
+            <div class="col-2">
+                <h3 class="oswald text-uppercase fw-normal pt-md-5 pb-md-3">Other</h3>
+                <div class="montserrat pb-md-2 fs-lg-5">Contact Us</div>
+                <div class="montserrat pb-md-2 fs-lg-5">Help</div>
+                <div class="montserrat fs-lg-5">Privacy</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of eighth container -->
+
+</body>
+
+</html>
